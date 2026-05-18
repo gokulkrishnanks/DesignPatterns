@@ -1,4 +1,4 @@
-package com.gokul.designpatterns.factory;
+package com.gokul.designpatterns.abstract_factory;
 
 public class CourierClient {
 

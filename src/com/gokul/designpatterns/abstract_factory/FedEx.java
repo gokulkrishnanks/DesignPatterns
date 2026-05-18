@@ -1,8 +1,8 @@
-package com.gokul.designpatterns.factory;
+package com.gokul.designpatterns.abstract_factory;
 
 public class FedEx extends CourierService {
     @Override
-    Transport getTransport() {
+    Transport createTransport() {
         return new RoadTransport();
     }
 }
